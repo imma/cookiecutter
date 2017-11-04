@@ -7,7 +7,7 @@ function main {
   cd "$shome"
   block compile pipenv
   mkdir -p "$shome/bin"
-  ln -nfs "$(pipenv run which bin/cookiecutter)" "$shome/bin/"
+  ln -nfs "$(pipenv run which cookiecutter)" "$shome/bin/"
 }
 
 main "$@"
