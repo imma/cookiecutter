@@ -1,2 +1,3 @@
 /bin/cookiecutter
 /vendor
+Pipfile.lock
